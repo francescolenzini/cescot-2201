@@ -1,16 +1,33 @@
+:root {
+    --red:  #7c1212;
+    --white: #ffffff;
+    --black: #2a2a2a;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    background-color: #7c1212;
-    color: #ffffff;
+.main-title {
+    background-color: var(--red);
+    color: var(--white);
 }
 
-div:last-of-type {
-    border: 2px solid #000000;
+.collab-div {
+    border: 2px solid var(--black);
     width: 250px;
     height: 250px;
+}
+
+.dati {
+    border: 1px solid var(--red);
+    height: 250px;
+    width: 250px;
+}
+
+.name {
+    color: var(--red);
+    font-weight: bold;
 }
