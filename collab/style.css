@@ -31,3 +31,9 @@
     color: var(--red);
     font-weight: bold;
 }
+
+a {
+    color: var(--red);
+    text-decoration: none;
+    font-size: 32px;
+}
